@@ -538,5 +538,6 @@ h1 {
 footer p {
     text-align: center;
     padding-bottom: 20px;
+    padding-right: 0;
 }
 }
