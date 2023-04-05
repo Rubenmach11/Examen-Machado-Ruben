@@ -7,14 +7,11 @@
 
 /*    header     */
 
-img{
-    transition: 0.5s;
+img{ transition: 0.5s;
     }
-img:hover{
-        transform: scale(1.3);
+img:hover{ transform: scale(1.3);
     }
-img{
-        transition: 0.5s;
+img{ transition: 0.5s;
     }    
 
 .fa-sharp.fa-solid.fa-bars {
@@ -52,6 +49,17 @@ img{
 a {
     color: #242E52;
     text-decoration: none;
+}
+.lista-top li a:hover{
+    color: #3CDDF3;
+}
+.boton-top:hover:after{
+    content:"-Sportit";
+    color: #232C50;
+}
+.boton-top2:hover:after{
+    content:"-Sportit";
+    color: #232C50;
 }
 .boton-top a {
     color: #FFFFFF;
@@ -271,6 +279,9 @@ h1 {
 .footer-1 ul {
     display: flex;
 }
+.footer-1 nav ul li a {
+color: #FAFAFA;
+}
 li {
     list-style-type: none;
     padding: 0;
@@ -295,6 +306,10 @@ li {
     display: flex;
     margin-bottom: 20px;
 }
+.footer-2 ul li:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
 .footer-3{
     display: flex;
     width: 40%;
@@ -312,6 +327,10 @@ li {
 }
 .boton-go2 a {
     color: #FFFFFF;
+}
+.boton-go2:hover {
+    background-color: #3CDDF3;
+    cursor: pointer;
 }
 .form-control {
     width: 201px;
@@ -338,6 +357,9 @@ footer p {
     display: flex;
     padding: 0 100px 0 100px;
     justify-content: space-between;
+}
+.contenedor-padrefooter nav ul li:hover{
+    transform: scale(1.2);
 }
 
 @media only screen and (max-width: 480px){
